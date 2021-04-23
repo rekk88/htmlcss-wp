@@ -1,0 +1,44 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* body */
+.container{
+    margin: 20px 140px;
+
+}
+
+header{
+    height: 90px;
+}
+footer{
+    height: 70px;
+}
+
+/*debug*/
+
+body.debug{
+    background-color: green;
+}
+header.debug{
+    
+    background-color: purple;
+
+}
+
+main .main-top.debug{
+    height: 250px;
+    background-color: orange;
+}
+
+main .main-bottom.debug{
+    height: 400px;
+    background-color: lightblue;
+}
+
+footer.debug{
+    background-color: yellow;
+    ;
+}

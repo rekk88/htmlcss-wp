@@ -56,9 +56,6 @@ aside, .main-bottom-content{
 
 /*debug*/
 
-body.debug{
-    /* background-color: green; */
-}
 header.debug{
     
     background-color: purple;
@@ -70,13 +67,8 @@ main .main-top.debug{
     background-color: orange;
 }
 
-main .main-bottom.debug{
-    /* height: 400px; */
-    background-color: lightblue;
-}
-
 .debug.main-bottom-title{
-    height:70px ;
+    height:70px;
     background-color: grey;
 }
 

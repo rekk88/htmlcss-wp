@@ -28,9 +28,28 @@ footer{
     height: 70px;
 }
 
-.float-container{
+.float-container{    /* contenitore elementi float  */ 
     width: 100%;
+    margin-top: 20px;
 }
+
+.main-top{
+    margin: 20px 0px;
+}
+.main-bottom{
+
+    margin-bottom: 15px;
+}
+.main-bottom-content{
+    width: 57%;
+    margin:0% 1.5%; 
+}
+
+aside{
+    width: 20%;
+}
+
+
 
 /*debug*/
 
@@ -65,12 +84,10 @@ footer.debug{
 
 aside.debug{
     height: 100px;
-    width: 20%;
     background-color: blue;
 }
 
 div.main-bottom-content.debug{
     height: 300px;
-    width: 60%;
     background-color:green ;
 }

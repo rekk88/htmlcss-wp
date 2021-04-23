@@ -27,9 +27,12 @@ body{
 
 }
 
+/* header */
 header{
      height: 180px;
 }
+
+/* logo */
 .img-container{
     border-right: 1px solid lightgrey;
     display: inline-block;
@@ -39,6 +42,8 @@ header{
     height: 90px;
     margin-right: 25px;
 }
+
+/* menu */
 nav{
     height: 90px;
     line-height: 90px;
@@ -56,6 +61,15 @@ nav a{
     text-transform: uppercase;
     font-size: 22px;
     vertical-align: middle;
+}
+
+/* main top  */
+
+.main-top{
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    height: 1000px;
+    background-repeat: no-repeat;
 }
 
 footer{

@@ -4,6 +4,17 @@
     box-sizing: border-box;
 }
 
+/* commons */
+.clearfix{
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.float{
+    float: left;
+}
+
 /* body */
 .container{
     margin: 20px 140px;
@@ -17,10 +28,14 @@ footer{
     height: 70px;
 }
 
+.float-container{
+    width: 100%;
+}
+
 /*debug*/
 
 body.debug{
-    background-color: green;
+    /* background-color: green; */
 }
 header.debug{
     
@@ -34,11 +49,28 @@ main .main-top.debug{
 }
 
 main .main-bottom.debug{
-    height: 400px;
+    /* height: 400px; */
     background-color: lightblue;
+}
+
+.debug.main-bottom-title{
+    height:70px ;
+    background-color: grey;
 }
 
 footer.debug{
     background-color: yellow;
-    ;
+    
+}
+
+aside.debug{
+    height: 100px;
+    width: 20%;
+    background-color: blue;
+}
+
+div.main-bottom-content.debug{
+    height: 300px;
+    width: 60%;
+    background-color:green ;
 }

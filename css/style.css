@@ -74,6 +74,7 @@ nav a{
     background-repeat: no-repeat;
     /* padding-top: 44%; */
     background-position: center;
+    margin: 20px 0px;
     
 }
 .layover{
@@ -92,29 +93,40 @@ nav a{
     font-size: 35px;
     display: block;
 }
-
-footer{
-    height: 70px;
-}
+/*float container */
 
 .float-container{    /* contenitore elementi float  */ 
     width: 100%;
     margin-top: 20px;
 }
 
-.main-top{
-    margin: 20px 0px;
-}
-.main-bottom{
-
-    margin-bottom: 15px;
-}
+/*main bottom content : colonna centrale*/
 .main-bottom-content{
     width: 57%;
     margin-right:1.5%;
     margin-left: 1.5%; 
 }
+#img-center{
+    background-image: url(../img/banner-2.jpg);
+    background-size: cover;
+    height: 340px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* opacity: 0.75; */
+    filter: brightness(80%);
+}
 
+#img-sx{
+    background-image: url(../img/img-1.jpg);
+    height: 340px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: brightness(80%);
+
+}
 aside{
     width: 20%;
 }
@@ -122,6 +134,16 @@ aside{
 aside, .main-bottom-content{
     margin-bottom: 15px;
 }
+
+
+
+
+/* footer */
+footer{
+    height: 70px;
+}
+
+
 
 
 

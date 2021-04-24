@@ -90,9 +90,9 @@ nav a{
     color: white;
     padding-left: 4%;
 }
-.text span{
+.text div{
     font-size: 35px;
-    display: block;
+    /* display: block; */
 }
 /*float container */
 
@@ -100,7 +100,15 @@ nav a{
     width: 100%;
     margin-top: 20px;
 }
-
+/* main bottom */
+.titolo{
+    margin: 15px 0px;
+    font-size: 22px;
+}
+.titolo + p {
+    color: #929292;
+    font-size: 20px;
+}
 /*main bottom content : colonna centrale*/
 .main-bottom-content{
     width: 57%;
@@ -110,27 +118,16 @@ nav a{
 .immagine-centrale{
     /* img */
     background-image: url(../img/banner-2.jpg);
-    height: 300px;
-    width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
-
-#img-sx{
-    background-image: url(../img/img-1.jpg);
+.immagini{
     height: 300px;
     width: 100%;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    /* filter: brightness(80%); */
-
 }
-#img-dx{
-    background-image: url(../img/img-3.jpg);
-    height: 300px;
-    width: 100%;
+/* colonne laterali */
+aside div.immagini{
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -143,6 +140,14 @@ aside{
 aside, .main-bottom-content{
     margin-bottom: 15px;
 }
+
+#img-sx{ /*colonna sinistra*/
+    background-image: url(../img/img-1.jpg);
+}
+#img-dx{ /*colonna destra*/
+    background-image: url(../img/img-3.jpg);
+}
+
 
 
 

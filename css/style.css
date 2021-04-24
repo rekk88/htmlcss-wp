@@ -80,6 +80,7 @@ nav a{
 .layover{
     background-color: rgba(0, 0, 0, 0.2);
     height: 100%;
+    width: 100%;
 }
 
  .text{
@@ -106,27 +107,35 @@ nav a{
     margin-right:1.5%;
     margin-left: 1.5%; 
 }
-#img-center{
+.immagine-centrale{
+    /* img */
     background-image: url(../img/banner-2.jpg);
-    background-size: cover;
-    height: 340px;
+    height: 300px;
     width: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    /* opacity: 0.75; */
-    filter: brightness(80%);
 }
 
 #img-sx{
     background-image: url(../img/img-1.jpg);
-    height: 340px;
+    height: 300px;
     width: 100%;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    filter: brightness(80%);
+    /* filter: brightness(80%); */
 
 }
+#img-dx{
+    background-image: url(../img/img-3.jpg);
+    height: 300px;
+    width: 100%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 aside{
     width: 20%;
 }
@@ -173,10 +182,10 @@ footer.debug{
     
 }
 
-aside.debug{
+/* aside.debug{
     height: 100px;
     background-color: blue;
-}
+} */
 
 div.main-bottom-content.debug{
     height: 300px;

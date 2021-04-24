@@ -101,6 +101,16 @@ nav a{
     margin-top: 20px;
 }
 /* main bottom */
+.main-bottom-title{
+    font-size: 18px;
+    color:#929292 ;
+}
+.main-bottom-title span{
+    /* font-weight: bold; */
+    display: block;
+    font-size: 35px;
+    color: black;
+}
 .titolo{
     margin: 15px 0px;
     font-size: 22px;

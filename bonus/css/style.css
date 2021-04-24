@@ -1,0 +1,133 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* commons */
+.clearfix{
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.float{
+    float: left;
+}
+
+.radius{
+    border-radius: 15px;
+}
+
+
+/* body */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    margin: 0px 140px 20px 140px;
+
+}
+
+/* logo */
+.img-container{
+    border-right: 1px solid lightgrey;
+    display: inline-block;
+
+}
+#logo{
+    height: 90px;
+    margin-right: 25px;
+}
+
+/* menu */
+nav{
+    height: 90px;
+    line-height: 90px;
+
+}
+nav li{
+    display: inline-block;
+    margin-right: 15px;
+
+}
+
+nav a{
+    text-decoration: none;
+    color: grey;
+    text-transform: uppercase;
+    font-size: 22px;
+    vertical-align: middle;
+}
+
+.main-top{
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    height: 880px;
+    background-repeat: no-repeat;
+    /* padding-top: 44%; */
+    background-position: center;
+    margin-top: 20px;
+
+}
+.layover{
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 100%;
+    width: 100%;
+}
+
+ .text{
+    padding-top: 43%;
+    width: 50%;
+    font-size: 20px;
+    color: white;
+    padding-left: 4%;
+}
+.text div{
+    font-size: 35px;
+    /* display: block; */
+}
+/*float container */
+
+.float-container{    /* contenitore elementi float  */
+    width: 100%;
+    /* margin-top: 20px; */
+}
+
+/* main bottom */
+.main-bottom-title{
+    font-size: 18px;
+    color:#929292 ;
+    margin: 30px 0px;
+}
+.main-bottom-title span{
+    /* font-weight: bold; */
+    display: block;
+    font-size: 35px;
+    color: black;
+}
+
+/* footer */
+footer{
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    margin-top: 15px;
+}
+
+footer span{
+    display: inline-block;
+    font-size: 20px;
+}
+
+#heart{
+    color: red;
+    /* font-size: 10px; */
+    font-size: 22px;
+    margin-left: 7px;
+}
+
+
+
+

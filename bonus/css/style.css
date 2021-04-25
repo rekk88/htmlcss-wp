@@ -138,17 +138,17 @@ nav a{
     width: 100%;
 }
 /* colonne laterali */
-aside div.immagini{
+.colonne div.immagini{
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-aside{
+.colonne{
     width: 20%;
 }
 
-aside, .main-bottom-content{
+.colonne, .main-bottom-content{
     margin-bottom: 15px;
 }
 

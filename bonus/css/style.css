@@ -126,6 +126,7 @@ nav a{
 }
 .autore {
     font-size: 13px;
+    margin-top: 15px;
 }
 .autore img{
     border-radius: 50%;
@@ -167,7 +168,7 @@ nav a{
 }
 /* colonne laterali */
 .colonne div.immagini{
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -181,15 +182,26 @@ nav a{
     margin-bottom: 15px;
 }
 
-#img-sx{ /*colonna sinistra*/
+#img-1{ /*colonna sinistra*/
     background-image: url(../../img/img-1.jpg);
 }
-#img-dx{ /*colonna destra*/
-    background-image: url(../../img/img-3.jpg);
+#img-2{ /*colonna destra*/
+    background-image: url(../../img/img-2.jpg);
 }
 
+#img-3{ /*colonna destra*/
+    background-image: url(../../img/img-3.jpg);
+}
+#img-4{ /*colonna sinistra*/
+    background-image: url(../../img/img-4.jpg);
+}
+#img-5{ /*colonna destra*/
+    background-image: url(../../img/img-5.jpg);
+}
 
-
+#img-6{ /*colonna destra*/
+    background-image: url(../../img/img-6.jpg);
+}
 
 
 /* footer */

@@ -176,10 +176,9 @@ nav a{
 .colonne{
     /* width: 20%; */
     width: calc((100% - 3%) / 3); /*100% meno i margini centrali diviso 3*/
-}
+    /* margin-bottom: 5px; */
+    margin-bottom: 40px;
 
-.colonne, .main-bottom-content{
-    margin-bottom: 15px;
 }
 
 #img-1{ /*colonna sinistra*/

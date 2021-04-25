@@ -120,6 +120,9 @@ nav a{
     color: #929292;
     font-size: 20px;
 }
+.titolo , .titolo + p{
+    padding:0px 25px;
+}
 /*main bottom content : colonna centrale*/
 .colonne.centrali{
     /* width: 57%; */

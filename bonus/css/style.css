@@ -19,25 +19,21 @@
     border-radius: 15px;
 }
 
-.layover{
-    background-color: rgba(0, 0, 0, 0.2);
-    height: 100%;
-    width: 100%;
-}
 
 /* body */
 body{
     font-family: 'Roboto', sans-serif;
 }
-
 .container{
     margin: 0px 140px 20px 140px;
 
 }
-/*header*/
+
+/* header */
 header{
-    margin-top: 50px;
+     height: 180px;
 }
+
 /* logo */
 .img-container{
     border-right: 1px solid lightgrey;
@@ -63,18 +59,16 @@ nav li{
 
 nav a{
     text-decoration: none;
-    color: black;
+    color: grey;
     text-transform: uppercase;
     font-size: 22px;
     vertical-align: middle;
 }
-/*
-a span{
 
-} */
+/* main top  */
 
 .main-top{
-    background-image: url(../../img/banner-bonus.jpg);
+    background-image: url(../../img/banner.jpg);
     background-size: cover;
     height: 880px;
     background-repeat: no-repeat;
@@ -83,32 +77,22 @@ a span{
     margin-top: 20px;
 
 }
-
-h2:first-child{
-    width: 40%;
-}
-.maggiore{
-    height: 70px;
-    line-height: 70px;
-}
- .text-container{
-    padding-top: 43%;
+.layover{
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 100%;
     width: 100%;
+}
+
+ .text{
+    padding-top: 43%;
+    width: 50%;
     font-size: 20px;
     color: white;
     padding-left: 4%;
-    display: inline-block;
 }
-.testo-sinistra{
-    width: 95%;
-    height: 70px;
-}
-
-p.testo{
-    color: white;
-    padding-left: 4%;
-    width: 60%;
-    margin-top: 10px;
+.text div{
+    font-size: 35px;
+    /* display: block; */
 }
 /*float container */
 
@@ -116,7 +100,6 @@ p.testo{
     width: 100%;
     /* margin-top: 20px; */
 }
-
 /* main bottom */
 .main-bottom-title{
     font-size: 18px;
@@ -129,95 +112,56 @@ p.testo{
     font-size: 35px;
     color: black;
 }
-
-.float-container{
-    /* padding-left: 25px; */
+.titolo{
+    margin: 15px 0px;
+    font-size: 22px;
 }
-.blocchetti.centrali{
-    /* margin: 0px 20px; */
-    margin-right: 20px;
-    margin-left: 20px;
+.titolo + p {
+    color: #929292;
+    font-size: 20px;
+}
+/*main bottom content : colonna centrale*/
+.main-bottom-content{
+    width: 57%;
+    margin-right:1.5%;
+    margin-left: 1.5%;
+}
+.immagine-centrale{
+    /* img */
+    background-image: url(../../img/banner-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .immagini{
     height: 300px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     width: 100%;
 }
+/* colonne laterali */
+aside div.immagini{
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
-#img-1{
+aside{
+    width: 20%;
+}
+
+aside, .main-bottom-content{
+    margin-bottom: 15px;
+}
+
+#img-sx{ /*colonna sinistra*/
     background-image: url(../../img/img-1.jpg);
-
 }
-
-#img-2{
-    background-image: url(../../img/img-2.jpg);
-
-}
-
-#img-3{
+#img-dx{ /*colonna destra*/
     background-image: url(../../img/img-3.jpg);
-
-}
-#img-4{
-    background-image: url(../../img/img-4.jpg);
-
-}
-
-#img-5{
-    background-image: url(../../img/img-5.jpg);
-
-}
-#img-6{
-    background-image: url(../../img/img-5.jpg);
-
-}
-.testo-blocchetti{
-    padding: 18px;
-}
-
-.testo-blocchetti h3{
-    margin: 5px 0px;
-}
-
-.blocchetti{
-    margin-top: 15px;
-    height: 500px;
-    width: calc( (100% - 40px) / 3);
-    /* background-color: blue; */
-    /* border: 1px solid black; */
-    /* margin-right: 25px; */
-    /* height: 100%; */
 }
 
 
 
 
-.fine-blocchetto{
-    display: inline-block;
-    padding-right: 3px;
-    margin-top: 5px;
-    font-size: 12px;
-    color: lightgrey;
-
-}
-.nome-avatar{
-    color: black;
-}
-.data{
-    border-right: 1px solid lightgrey;
-    margin-right: 5px;
-    padding-right: 5px;
-}
-
-span.data:nth-child(1){
-
-}
-.avatar{
-    border-radius: 50%;
-    vertical-align: middle;
-}
 
 /* footer */
 footer{
@@ -231,9 +175,48 @@ footer span{
     display: inline-block;
     font-size: 20px;
 }
+
 #heart{
     color: red;
     /* font-size: 10px; */
     font-size: 22px;
     margin-left: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*debug*/
+
+
+main .main-top.debug{
+    height: 250px;
+    background-color: orange;
+}
+
+.debug.main-bottom-title{
+    height:70px;
+    background-color: grey;
+}
+
+footer.debug{
+    background-color: yellow;
+
+}
+
+/* aside.debug{
+    height: 100px;
+    background-color: blue;
+} */
+
+div.main-bottom-content.debug{
+    height: 300px;
+    background-color:green ;
 }

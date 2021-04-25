@@ -37,12 +37,15 @@ body{
 /* header */
 header{
      height: 180px;
+    margin-top: 40px;
+
 }
 
 /* logo */
 .img-container{
     border-right: 1px solid lightgrey;
     display: inline-block;
+
 
 }
 #logo{
@@ -64,7 +67,7 @@ nav li{
 
 nav a{
     text-decoration: none;
-    color: grey;
+    color: black;
     text-transform: uppercase;
     font-size: 22px;
     vertical-align: middle;

@@ -19,6 +19,11 @@
     border-radius: 15px;
 }
 
+.layover{
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 100%;
+    width: 100%;
+}
 
 /* body */
 body{
@@ -77,11 +82,7 @@ nav a{
     margin-top: 20px;
 
 }
-.layover{
-    background-color: rgba(0, 0, 0, 0.2);
-    height: 100%;
-    width: 100%;
-}
+
 
  .text{
     padding-top: 43%;
@@ -120,9 +121,33 @@ nav a{
     color: #929292;
     font-size: 20px;
 }
-.titolo , .titolo + p{
+.titolo , .titolo + p, .autore{
     padding:0px 25px;
 }
+.autore {
+    font-size: 13px;
+}
+.autore img{
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.nome , .data , .testo-data {
+    vertical-align: middle;
+}
+
+.data , .testo-data {
+    color: lightgrey;
+}
+
+.data{
+    margin:0px 5px;
+}
+.sbarra{
+    border-right: 1px solid lightgrey;
+    margin-right: 9px;
+}
+
 /*main bottom content : colonna centrale*/
 .colonne.centrali{
     /* width: 57%; */

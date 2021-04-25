@@ -82,18 +82,30 @@ nav a{
     margin-top: 20px;
 
 }
-
-
- .text{
+.text-container{
     padding-top: 43%;
-    width: 50%;
+    width: 100%;
     font-size: 20px;
     color: white;
     padding-left: 4%;
+    display: inline-block;
 }
-.text div{
-    font-size: 35px;
-    /* display: block; */
+.testo-sinistra {
+    width: 95%;
+    height: 70px;
+}
+h2:first-child {
+    width: 40%;
+}
+.maggiore {
+    height: 70px;
+    line-height: 70px;
+}
+p.testo {
+    color: white;
+    padding-left: 4%;
+    width: 40%;
+    margin-top: 10px;
 }
 /*float container */
 
